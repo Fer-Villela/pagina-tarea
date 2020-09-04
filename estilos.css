@@ -9,3 +9,14 @@
 body{
     background-color:#83D71F ;
   }
+
+  #menu{
+list-style: none;
+display: inline-block;
+}
+#ts{
+  position: relative;
+}
+#posicion{
+     position: relative;
+}

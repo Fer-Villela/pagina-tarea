@@ -1,0 +1,11 @@
+.title {
+  width: 170px;
+  height: 140;
+  margin: 5px
+  padding:20px;
+  background-color: magenta;
+  float: left;
+}
+body{
+    background-color:#83D71F ;
+  }

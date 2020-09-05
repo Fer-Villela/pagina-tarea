@@ -1,19 +1,33 @@
-.title {
-  width: 170px;
-  height: 140;
-  margin: 5px
-  padding:20px;
-  background-color: magenta;
-  float: left;
+#titulo {
+  font-style: 
+  oblique; 
+  color:white;
+   font-size: 90px;
 }
-body{
-    background-color:#83D71F ;
-  }
 
-  #menu{
+#menu{
 list-style: none;
 display: inline-block;
 }
+.li{
+  list-style: none;
+  padding: 0px;
+  background: #ABE3A3;
+  width: 40%;
+  max-width: 1000px;
+  margin: auto;
+}
+.li li a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display:block;
+  text-align: center;
+}
+.li li{
+  display: inline-block;
+  text-align: center;
+} 
 #ts{
   position: relative;
 }

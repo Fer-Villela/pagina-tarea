@@ -2,7 +2,7 @@
   font-style: 
   oblique; 
   color:white;
-   font-size: 90px;
+   font-size: 100px;
 }
 
 #menu{
@@ -11,16 +11,16 @@ display: inline-block;
 }
 .li{
   list-style: none;
-  padding: 0px;
-  background: #ABE3A3;
-  width: 40%;
+  padding: 25px;
+  background: #71da7b;
+  width: 200%;
   max-width: 1000px;
   margin: auto;
 }
 .li li a{
   text-decoration: none;
   color: black;
-  padding: 20px;
+  padding: 100px;
   display:block;
   text-align: center;
 }

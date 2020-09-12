@@ -2,7 +2,7 @@
   font-style: 
   oblique; 
   color:white;
-   font-size: 90px;
+   font-size: 1000px;
 }
 
 #menu{
@@ -11,19 +11,20 @@ display: inline-block;
 }
 .li{
   list-style: none;
-  padding: 0px;
-  background: #ABE3A3;
-  width: 40%;
+  padding: 50px;
+  background: #265bc9;
+  width: 400%;
   max-width: 1000px;
   margin: auto;
 }
 .li li a{
   text-decoration: none;
   color: black;
-  padding: 20px;
+  padding: 500px;
   display:block;
   text-align: center;
 }
+
 .li li{
   display: inline-block;
   text-align: center;
@@ -33,4 +34,55 @@ display: inline-block;
 }
 #posicion{
      position: relative;
+
 }
+
+
+/*ENCABEZADO*/
+header {
+  max-width: 1100px;
+  min-height: 30PX;
+  margin: 0;
+  background:#98d157 ;
+  border-radius:  50px  50px 0 0;
+  text-align: center;
+  box-sizing: border-box;
+  font: arial;
+  font-size: 18px;
+  
+/*ENCABEZADO*/
+}
+
+/*PÍE DE PAGINA*/
+footer {
+  max-width: 1100px;
+  background: #98d157;
+  margin: 0;
+  border-radius: 0 0  20px  20px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  font: arial;
+  font-size: 18px;
+/*PÍE DE PAGINA*/
+}
+
+/*aside*/
+aside {
+  display: inline-block;
+  width: 300px;
+  min-height: 100px;
+  background: #50afa3;
+  text-align: center;
+  }
+
+  .nav-enlace {
+
+    background:#50afa3; 
+    color: #f5f5f5;
+    padding: 10px 30px;
+    text-decoration: none;
+
+    a {
+  background-color: transparent;{

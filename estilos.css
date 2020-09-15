@@ -71,10 +71,10 @@ footer {
 /*aside*/
 aside {
   display: inline-block;
-  width: 300px;
+  width: 100px;
   min-height: 100px;
-  background: #50afa3;
-  text-align: center;
+  float: right;
+
   }
 
   .nav-enlace {
@@ -83,6 +83,6 @@ aside {
     color: #f5f5f5;
     padding: 10px 30px;
     text-decoration: none;
+}
 
-    a {
-  background-color: transparent;{
+aside

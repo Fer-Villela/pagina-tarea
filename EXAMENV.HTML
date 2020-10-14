@@ -1,0 +1,60 @@
+
+<html>
+<head>
+	<br>
+<title>Validar si la contraseña y la repetición de la contraseña son iguales </title>
+<link rel="stylesheet" type="text/css" href="fer.css">
+<script>
+function ComprobarClave(){
+clave1 = document.f1.clave1.value
+clave2 = document.f1.clave2.value
+if (clave1 == "fer" && clave2 == "villela"){
+alert("Los Datos Coinciden...\n Bienvenido");
+var href = "https://fer-villela.github.io/pagina-tarea/about%20me";
+window.location=href;
+}
+else{
+alert("Las dos claves son distintas...\n Intentantalo nuevamente.");
+var href = "2.html";
+window.location=href;
+};
+}
+</script>
+</head>
+<body >
+	<font color="WHITE">
+		<center>
+<h1>Validar si la contraseña y la repetición de la contraseña son iguales</h1>
+<br>
+<h3>Escribe una supesta contraseña dos veces, una en cada campo, y pulsa el botón. Javascript te dirá si las dos son iguales.</h3></center>
+<br>
+<center>
+<form action="" name="f1">
+	<section class="form-register">
+		<h4>REGISTRO</h4>
+<h2>Nombre del estudiante:</h2> <input class="controls"   type="password" name="clave1" size="35">
+<br>
+<h2>Contraseña del estudiante:</h2> <input class="controls" type="password" name="clave2" size="35">
+<br>
+<br>
+<br>
+<input  class="boton" type="button" value="Ingresa a la página del estudiante" onClick="ComprobarClave()" >
+</section>
+</center>
+<br>
+<br>
+<aside>
+		<center>
+			<h2>
+				<ul>
+					<section></section>
+					<img 
+		     src="https://scontent.fgua3-2.fna.fbcdn.net/v/t1.15752-0/p280x280/118651439_1858831120923289_5141512089318937317_n.jpg?_nc_cat=109&_nc_sid=ae9488&_nc_ohc=7Tw-L8SsCQgAX9fxBWo&_nc_ht=scontent.fgua3-2.fna&tp=6&oh=2307e35b3e58398a0c4c2ede35264677&oe=5FABC4D2"
+		     width="30%" height="275">
+				</ul>
+			</h2>
+			</center>
+		</aside>
+</form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.form-register{
+	width: 400px;
+	background:#000000;
+	padding: 30px;
+	margin:auto;
+	margin-top: 100px;
+	border-radius:4px;
+	font-family:'narkisim';
+	color:#ae82e7;
+}
+
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg');
+}
+
+.form-register h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.form-register h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls {
+	width: 100%;
+	background: #ffffff;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border:1px solid #510d87;
+	font-family:'forte';
+	font-size: 18px;
+}
+.boton{
+	width: 100%;
+	background:#7a21e8;
+	border; none;
+	padding: 15px;
+	color: #ffffff;
+	margin:10px 5px; 
+	font-family:'narkisim';
+	font-size:20px;
+}

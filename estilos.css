@@ -1,4 +1,4 @@
-#titulo {
+﻿#titulo {
   font-style: 
   oblique; 
   color:white;
@@ -47,7 +47,7 @@ header {
   border-radius:  50px  50px 0 0;
   text-align: center;
   box-sizing: border-box;
-  font: arial;
+  font: forte;
   font-size: 18px;
   
 /*ENCABEZADO*/
@@ -63,7 +63,7 @@ footer {
   padding: 30px;
   box-sizing: border-box;
   text-align: center;
-  font: arial;
+  font: forte;
   font-size: 18px;
 /*PÍE DE PAGINA*/
 }
@@ -81,8 +81,7 @@ aside {
 
     background:#50afa3; 
     color: #f5f5f5;
-    padding: 10px 30px;
+    padding: 100px 25px;
     text-decoration: none;
 }
 
-aside
